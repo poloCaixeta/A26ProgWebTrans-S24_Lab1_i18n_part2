@@ -1,6 +1,6 @@
 ﻿@{
-    ViewData["Title"] = "Privacy Policy";
+	ViewData["Title"] = ViewBag.Title;
 }
-<h1>@ViewData["Title"]</h1>
+<h1>@Locals["PrivacyTitle"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<p>@Locals["PrivacyDescription"]</p>
